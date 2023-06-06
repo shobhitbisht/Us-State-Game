@@ -51,7 +51,7 @@ while len(guessed_states) < 50:
     #This will create a csv file of states name which we haven't guessed.
     not_guessed_state = all_states
     df = pandas.DataFrame(not_guessed_state)
-    df.to_csv("states_to_learn.cs")
+    df.to_csv("states_to_learn.csv")
     break
     
 
